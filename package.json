@@ -1,0 +1,21 @@
+{
+  "name": "loginwithjwt",
+  "version": "1.0.0",
+  "description": "git clone <repository_url>",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "bcrypt": "^5.1.0",
+    "fastify": "^4.19.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
